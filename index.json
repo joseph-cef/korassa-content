@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "app": {
+    "latestVersion": "1.0.0",
+    "minSupportedVersion": "1.0.0",
+    "downloadUrl": "https://t.me/CHANNEL/1",
+    "shareText": "Korassa — كل دروس الكلية بدون إنترنت. حمّله من هنا:"
+  },
+  "remote": {
+    "baseUrl": "https://raw.githubusercontent.com/OWNER/korassa-content/main/content/",
+    "files": {
+      "subjects": { "path": "subjects.json", "version": 1 },
+      "professors": { "path": "professors.json", "version": 1 },
+      "announcements": { "path": "announcements.json", "version": 1 },
+      "places": { "path": "places.json", "version": 1 }
+    }
+  },
+  "links": {
+    "telegramChannel": "https://t.me/CHANNEL"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "professors": [
+    {
+      "id": "p-benali",
+      "name": "Dr. Benali Ahmed",
+      "email": "a.benali@univ.dz",
+      "subjectIds": ["algo2"],
+      "officePlaceId": "office-benali"
+    },
+    {
+      "id": "p-meziane",
+      "name": "Dr. Meziane Fatima",
+      "email": "f.meziane@univ.dz",
+      "subjectIds": ["sdd"]
+    }
+  ]
+}

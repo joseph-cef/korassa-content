@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "specialties": [
+    { "id": "info", "name": { "ar": "إعلام آلي", "fr": "Informatique" } }
+  ],
+  "years": ["L1", "L2", "L3", "M1", "M2"],
+  "subjects": [
+    {
+      "id": "algo2",
+      "specialtyId": "info",
+      "year": "L2",
+      "semester": 1,
+      "name": { "ar": "الخوارزميات", "fr": "Algorithmique" },
+      "coef": 3,
+      "credits": 5,
+      "professorIds": ["p-benali"],
+      "evaluation": { "td": 0.2, "tp": 0.2, "exam": 0.6 },
+      "maxAbsences": { "td": 3, "tp": 3 },
+      "links": [],
+      "roomPlaceId": "amphi-a",
+      "files": [
+        {
+          "id": "algo2-cours-ch1",
+          "type": "cours",
+          "title": { "ar": "الفصل 1: مقدمة في الخوارزميات", "fr": "Chapitre 1: Introduction aux algorithmes" },
+          "bundledPath": "pdfs/info/L2/S1/algo2/cours/ch1.pdf",
+          "remotePath": null,
+          "sizeBytes": 120000,
+          "sha256": "placeholder-sha256-algo2-cours-ch1"
+        },
+        {
+          "id": "algo2-td-1",
+          "type": "td",
+          "title": { "ar": "الأعمال الموجهة 1", "fr": "TD 1: Exercices de base" },
+          "bundledPath": "pdfs/info/L2/S1/algo2/td/td1.pdf",
+          "remotePath": null,
+          "sizeBytes": 85000,
+          "sha256": "placeholder-sha256-algo2-td1"
+        }
+      ]
+    },
+    {
+      "id": "sdd",
+      "specialtyId": "info",
+      "year": "L2",
+      "semester": 2,
+      "name": { "ar": "هياكل البيانات", "fr": "Structures de Données" },
+      "coef": 4,
+      "credits": 6,
+      "professorIds": ["p-meziane"],
+      "evaluation": { "td": 0.3, "exam": 0.7 },
+      "maxAbsences": { "td": 3 },
+      "links": [],
+      "files": [
+        {
+          "id": "sdd-cours-ch1",
+          "type": "cours",
+          "title": { "ar": "الفصل 1: القوائم المتسلسلة", "fr": "Chapitre 1: Listes chaînées" },
+          "bundledPath": "pdfs/info/L2/S2/sdd/cours/ch1.pdf",
+          "remotePath": null,
+          "sizeBytes": 140000,
+          "sha256": "placeholder-sha256-sdd-cours-ch1"
+        },
+        {
+          "id": "sdd-exam-2025",
+          "type": "exam",
+          "title": { "ar": "امتحان 2025", "fr": "Examen 2025" },
+          "bundledPath": "pdfs/info/L2/S2/sdd/exam/exam2025.pdf",
+          "remotePath": null,
+          "sizeBytes": 95000,
+          "sha256": "placeholder-sha256-sdd-exam-2025"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "ann-welcome",
+      "type": "info",
+      "text": {
+        "ar": "مرحباً بكم في كراسة! تطبيقكم لكل دروس الكلية.",
+        "fr": "Bienvenue sur Korassa! Votre app pour tous les cours de la faculté."
+      },
+      "button": null,
+      "minAppVersion": null,
+      "showIfAppVersionBelow": null,
+      "expires": "2027-12-31"
+    }
+  ]
+}

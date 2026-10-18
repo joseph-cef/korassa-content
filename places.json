@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "maps": [
+    {
+      "id": "site",
+      "name": {
+        "ar": "المخطط العام للكلية",
+        "fr": "Plan général de la faculté"
+      },
+      "image": "maps/site.png",
+      "width": 1000,
+      "height": 700,
+      "floors": []
+    },
+    {
+      "id": "block-a",
+      "name": {
+        "ar": "المبنى A",
+        "fr": "Bloc A"
+      },
+      "floors": [
+        {
+          "id": "a-0",
+          "name": {
+            "ar": "الطابق الأرضي",
+            "fr": "Rez-de-chaussée"
+          },
+          "image": "maps/block-a-0.png",
+          "width": 1000,
+          "height": 700
+        },
+        {
+          "id": "a-1",
+          "name": {
+            "ar": "الطابق الأول",
+            "fr": "1er étage"
+          },
+          "image": "maps/block-a-1.png",
+          "width": 1000,
+          "height": 700
+        }
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "amphi-a",
+      "type": "amphi",
+      "name": {
+        "ar": "المدرج A",
+        "fr": "Amphi A"
+      },
+      "mapId": "block-a",
+      "floorId": "a-0",
+      "x": 0.35,
+      "y": 0.45,
+      "note": {
+        "ar": "بجانب المدخل الرئيسي للمبنى A",
+        "fr": "Près de l'entrée principale du Bloc A"
+      },
+      "aliases": ["amphi a", "مدرج أ", "مدرج A"]
+    },
+    {
+      "id": "lab-101",
+      "type": "lab",
+      "name": {
+        "ar": "مخبر 101",
+        "fr": "Laboratoire 101"
+      },
+      "mapId": "block-a",
+      "floorId": "a-1",
+      "x": 0.65,
+      "y": 0.35,
+      "note": {
+        "ar": "الطابق الأول، جناح الإعلام الآلي",
+        "fr": "1er étage, aile informatique"
+      },
+      "aliases": ["lab 101", "مخبر 101", "tp"]
+    },
+    {
+      "id": "office-benali",
+      "type": "office",
+      "name": {
+        "ar": "مكتب د. بن علي",
+        "fr": "Bureau Dr. Benali"
+      },
+      "mapId": "block-a",
+      "floorId": "a-1",
+      "x": 0.50,
+      "y": 0.65,
+      "note": {
+        "ar": "مكتب رقم 112",
+        "fr": "Bureau N° 112"
+      },
+      "aliases": ["benali", "بن علي", "مكتب"]
+    },
+    {
+      "id": "library",
+      "type": "library",
+      "name": {
+        "ar": "المكتبة المركزية",
+        "fr": "Bibliothèque centrale"
+      },
+      "mapId": "site",
+      "x": 0.25,
+      "y": 0.30,
+      "note": {
+        "ar": "المبنى الملاصق للمدخل الرئيسي",
+        "fr": "Bâtiment adjacent à l'entrée principale"
+      },
+      "aliases": ["مكتبة", "biblio"]
+    },
+    {
+      "id": "cafeteria",
+      "type": "facility",
+      "name": {
+        "ar": "الكافيتريا",
+        "fr": "Cafétéria"
+      },
+      "mapId": "site",
+      "x": 0.75,
+      "y": 0.75,
+      "note": {
+        "ar": "ساحة الاستراحة",
+        "fr": "Espace détente"
+      },
+      "aliases": ["كافيتريا", "قهوة", "مطعم"]
+    }
+  ]
+}
